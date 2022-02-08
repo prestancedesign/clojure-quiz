@@ -22,4 +22,4 @@ npx clojure-quiz
 npm i chalk chalk-animation figlet gradient-string inquirer nanospinner
 ```
 
-Thanks Fireship for the original Node.js (project)[https://github.com/fireship-io/javascript-millionaire]
+Thanks Fireship for the original Node.js [project](https://github.com/fireship-io/javascript-millionaire).
