@@ -1,6 +1,6 @@
 {
   "name": "clojure-quiz",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Who wants to be a Clojure/Script millionaire?",
   "homepage": "https://github.com/prestancedesign/clojure-quiz",
   "type": "module",
@@ -8,11 +8,9 @@
     "type": "git",
     "url": "https://github.com/prestancedesign/clojure-quiz"
   },
-  "main": "index.mjs",
-  "scripts": {
-    "start": "node ."
+  "bin": {
+    "clojure-quiz": "index.mjs"
   },
-  "bin": "./index.js",
   "dependencies": {
     "chalk": "^4.1.2",
     "chalk-animation": "^1.6.0",
