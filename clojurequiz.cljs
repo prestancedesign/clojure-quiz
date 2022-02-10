@@ -51,7 +51,7 @@
 (defn question-1 []
   (p/let [answers (inquirer/prompt (clj->js {:name "question_1"
                                              :type "list"
-                                             :message "When was Clojure released?"
+                                             :message "When was Clojure released?\n"
                                              :choices ["May 23rd, 2011"
                                                        "Oct 16th, 2007"
                                                        "Dec 4th, 2005"
@@ -61,7 +61,7 @@
 (defn question-2 []
   (p/let [answers (inquirer/prompt (clj->js {:name "question_2"
                                              :type "list"
-                                             :message "Who designed Clojure"
+                                             :message "Who designed Clojure\n"
                                              :choices ["Yukihiro Matsumoto"
                                                        "John Clojure"
                                                        "Rich Hickey"
@@ -71,7 +71,7 @@
 (defn question-3 []
   (p/let [answers (inquirer/prompt (clj->js {:name "question_3"
                                              :type "list"
-                                             :message "Which of these is not a file extension for Clojure?"
+                                             :message "Which of these is not a file extension for Clojure?\n"
                                              :choices ["clj"
                                                        "cljc"
                                                        "ens"
@@ -81,7 +81,7 @@
 (defn question-4 []
   (p/let [answers (inquirer/prompt (clj->js {:name "question_4"
                                              :type "list"
-                                             :message "Which of these platforms is not used to run Clojure?"
+                                             :message "Which of these platforms is not used to run Clojure?\n"
                                              :choices ["Java Virtual Machine"
                                                        "Common Language Runtime"
                                                        "HyperText Markup Language"
