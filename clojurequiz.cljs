@@ -39,8 +39,7 @@
                                         :type "input"
                                         :message "What is your name?"
                                         :default (fn [] "Player")})]
-    (reset! player-name (.-player_name answers))
-    (log @player-name)))
+    (reset! player-name (.-player_name answers))))
 
 (defn winner []
   (js/console.clear)
