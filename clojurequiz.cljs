@@ -84,7 +84,7 @@
                                              :message "Which of these platforms is not used to run Clojure?\n"
                                              :choices ["Java Virtual Machine"
                                                        "Common Language Runtime"
-                                                       "HyperText Markup Language"
+                                                       "Commodore 64"
                                                        "JavaScript"]}))]
     (handle-answer (= (.-question_4 answers) "HyperText Markup Language"))))
 
