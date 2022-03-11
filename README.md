@@ -7,6 +7,7 @@ A super fancy CLI tool write in ClojureScript using [nbb](https://github.com/bab
 ```
 npx clojure-quiz
 ```
+or directly in your browser: https://replit.com/@prestancedesign/clojure-quiz
 
 ## Packages Used
 
