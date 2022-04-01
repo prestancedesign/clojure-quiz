@@ -86,7 +86,7 @@
                                                        "Common Language Runtime"
                                                        "Commodore 64"
                                                        "JavaScript"]}))]
-    (handle-answer (= (.-question_4 answers) "HyperText Markup Language"))))
+    (handle-answer (= (.-question_4 answers) "Commodore 64"))))
 
 (js/console.clear)
 

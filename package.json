@@ -1,6 +1,6 @@
 {
   "name": "clojure-quiz",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Who wants to be a Clojure/Script millionaire?",
   "homepage": "https://github.com/prestancedesign/clojure-quiz",
   "type": "module",
